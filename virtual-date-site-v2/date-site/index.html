@@ -1,0 +1,6 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>A date, for you</title><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:wght@400;500&display=swap" rel=stylesheet><link rel=stylesheet href=src/style.css></head><body>
+<canvas id=bg></canvas><div id=ui></div><div id=vig></div><div id=fade></div><div id=toast></div><div id=cap></div>
+<div id=nav><div id=jr></div><div><button class="btn s" id=home>restart</button> <button class="btn s" id=rp>replay</button> <button class="btn s" id=sk>skip</button></div></div>
+<div id=bar><b id=np>Tap the jukebox to pick a song</b><button id=pv>⏮</button><button id=pl>⏯</button><button id=xt>⏭</button><input id=pg type=range min=0 max=1 step=.001 value=0><input id=vol type=range min=0 max=1 step=.05 value=.8><button id=am title="Ambient music">♪ ambience</button><iframe id=sp allow="encrypted-media"></iframe></div>
+<button class=btn id=next>Continue ›</button>
+<script src=src/data.js></script><script src=src/app.js></script></body></html>
